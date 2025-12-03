@@ -1,0 +1,49 @@
+WIDTH = 960
+HEIGHT = 720
+FPS = 60
+
+START_LIVES = 3
+SAFE_SPAWN_TIME = 2.0
+WAVE_DELAY = 2.0
+
+PLAYER_SPEED = 300.0
+PLAYER_RADIUS = 20
+
+PLAYER_FIRE_RATE = 0.2
+BULLET_SPEED = 600.0
+BULLET_TTL = 1.5
+BULLET_RADIUS = 4
+
+AST_VEL_MIN = 30.0
+AST_VEL_MAX = 90.0
+AST_SIZES = {
+    "L": {"r": 46, "score": 20, "split": ["M", "M"]},
+    "M": {"r": 24, "score": 50, "split": ["S", "S"]},
+    "S": {"r": 12, "score": 100, "split": []},
+}
+
+BULLET_RADIUS = 2
+BULLET_TTL = 1.0
+MAX_BULLETS = 4
+
+UFO_SPAWN_EVERY = 2.0
+UFO_SPEED = 80.0
+UFO_BIG = {"r": 18, "score": 200, "aim": 0.2}
+UFO_SMALL = {"r": 12, "score": 1000, "aim": 0.6}
+
+WHITE = (240, 240, 240)
+GRAY = (120, 120, 120)
+BLACK = (0, 0, 0)
+
+RANDOM_SEED = None
+
+ENEMY_ATTACK_RANGE = 60.0
+ENEMY_ATTACK_COOLDOWN = 1.0
+
+WAVE_DURATION = 15.0
+BASE_MAX_ENEMIES = 4
+MIN_SPAWN_RATE = 0.5
+
+MASTER_VOLUME = 0.5
+MUSIC_VOLUME_RATIO = 0.8
+SFX_VOLUME_RATIO = 0.5
